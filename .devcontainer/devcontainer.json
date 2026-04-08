@@ -5,10 +5,10 @@
   },
   "features": {
   },
+  "postAttachCommand": "code README.md",
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "README.md",
         "hello.chpl"
       ]
     },
