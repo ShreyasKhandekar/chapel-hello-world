@@ -5,13 +5,7 @@
   },
   "features": {
   },
-  "postAttachCommand": "code README.md",
   "customizations": {
-    "codespaces": {
-      "openFiles": [
-        "hello.chpl"
-      ]
-    },
     "vscode": {
       "extensions": [
         "chpl-hpe.chapel-vscode"
