@@ -6,17 +6,16 @@
   "features": {
   },
   "customizations": {
-    "codespaces": {
-      "openFiles": [
-        "hello.chpl"
-      ]
-    },
     "vscode": {
       "extensions": [
         "chpl-hpe.chapel-vscode"
       ],
       "settings": {
         "chapel.CHPL_HOME": "/opt/chapel",
+        "workbench.startupEditor": "readme",
+        "workbench.editorAssociations": {
+          "README.md": "vscode.markdown.preview.editor"
+        }
       }
     }
   }
