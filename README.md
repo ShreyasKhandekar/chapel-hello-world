@@ -43,7 +43,7 @@ CHPL_COMM=gasnet chpl examples/hello4-datapar-dist.chpl
 ./hello4-datapar-dist -nl 2
 ```
 
-To avoid having to include CHPL_COMM in each compilation command, you can export it (you need to do this once per shell session). After this, you can compile as usual:
+To avoid having to include `CHPL_COMM` in each compilation command, you can export it (you need to do this once per shell session). After this, you can compile as usual:
 
 
 ```bash
